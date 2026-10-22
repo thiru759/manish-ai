@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33823945/README.md)
 # Manish AI
 
 A responsive React/Vite chatbot UI with an Express backend that calls the OpenAI API. Includes a dark/light theme, English/Tamil-friendly system prompt, in-session conversation context, saved chat history in the browser, typing state, and mobile sidebar.
