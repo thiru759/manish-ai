@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Bot, Plus, Send, Sun, Moon, Menu, X, Sparkles, MessageSquare, Trash2, Globe2 } from "lucide-react";
-import "./styles.css";
+import "../styles.css";
 
 const WELCOME = "Hi! I'm Manish AI. 👋 Ask me anything, and let's figure it out together!";
 const starterPrompts = [
