@@ -67,7 +67,7 @@ function App() {
     }));
     setLoading(true);
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("https://manish-ai-2.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: nextMessages.filter(m => m.role === "user" || (m.role === "assistant" && m.content !== WELCOME)).slice(-30) })
